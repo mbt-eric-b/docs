@@ -24,12 +24,13 @@ With this technology, you can switch IP addresses from one solution to another i
 > [!primary]
 > A failover IP cannot be moved from one zone to another. For example, an IP located in the SBG data centre can be moved to GRA or RBX, but cannot be moved to BHS. 
 >
-> Additionally, only the entire block can be migrated, it is not possible to migrate single IPs in a block.
+> Migration only works for whole blocks, it is not possible to migrate individual IPs within a block.
 >
+
 
 > [!alert]
 >
-> The migration of an IP block between dedicated servers with single or duplicate mac addresses will cause the temporary suspension of these vmacs. Once the migration is completed, they will reappear on the new server. However, If the same virtual mac is used on multiple blocks on the same machine, the duplicate virtual mac must be deleted before the block can be moved.
+> The migration of an IP block between dedicated servers with single or duplicate mac addresses will cause the temporary suspension of these vmacs. Once the migration is completed, they will reappear on the new server. However, If the same virtual mac is used on multiple blocks on the same machine, this virtual mac must be deleted on the corcerned block before it can be moved.
 >
 > The migration of an IP block to the vrack will permanently delete all virtual mac adresses.
 >
