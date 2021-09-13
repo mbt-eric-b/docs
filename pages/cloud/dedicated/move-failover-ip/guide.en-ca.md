@@ -32,7 +32,7 @@ With this technology, you can switch IP addresses from one solution to another i
 
 > [!alert]
 >
-> The migration of an IP block between dedicated servers with single or duplicate mac addresses will cause the temporary suspension of these vmacs. Once the migration is completed, they will reappear on the new server. However, If the same virtual mac is used on multiple blocks on the same machine, this virtual mac must be deleted on the corcerned block before it can be moved.
+> The migration of an IP block between dedicated servers with single or duplicate mac addresses will cause the temporary suspension of these vmacs. Once the migration is completed, they will reappear on the new server. However, If the same virtual mac is used on multiple blocks on the same machine, this virtual mac must be deleted on the concerned block before it can be moved.
 >
 > The migration of an IP block to the vrack will permanently delete all virtual mac adresses.
 >
